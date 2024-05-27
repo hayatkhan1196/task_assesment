@@ -1,0 +1,276 @@
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 630px;
+    margin: 20px auto 0px 30px;
+    background-color: #fff;
+    height: 460px;
+    box-shadow: 0 1px 4px 0 #ccc;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.companyName {
+    font-size: 20px;
+    letter-spacing: .05px;
+    line-height: 24px;
+    padding-right: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.healthCheck {
+    font-size: 16px;
+    color: #666;
+}
+
+.editButton {
+    background-color: #021B41;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.description {
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #555;
+    font-size: 16px;
+    letter-spacing: .04px;
+    line-height: 19px;
+}
+
+.learnMore {
+    color: #0466D1;
+    text-decoration: none;
+}
+
+.perfIndTableWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.heartSection {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.img {
+    width: 13rem;
+    height: 13rem;
+
+
+}
+
+.textOverHeart {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.healthRatingText {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.rating {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.outOf {
+    font-size: 14px;
+}
+
+.tableSection {
+    flex-grow: 1;
+}
+
+.perfIndTable {
+    width: 100%;
+}
+
+.scorecardLabelInline {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.perfTableBorderBottom {
+    border-bottom: 1px solid #ddd;
+}
+
+.scoreLabelMain {
+    display: flex;
+    align-items: center;
+}
+
+.scoreLabelImg {
+    width: 24px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.scoreLabelText {
+    font-size: 14px;
+}
+
+.sizeIndicator {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.icon {
+    width: 30px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+}
+
+.description1 {
+    font-size: 12px;
+    color: #555;
+    margin: 0;
+}
+
+.gradientOverTable {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.yellowBtn {
+    background-color: #021B41;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.yellowBtn:hover {
+    background-color: #00d1A9;
+}
+
+/* General styles for mobile devices */
+@media only screen and (max-width: 767px) {
+    .card {
+        padding: 15px;
+        margin: 15px auto;
+        height: auto;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 15px;
+    }
+
+    .companyName {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 10px;
+
+    }
+
+    .healthCheck {
+        font-size: 14px;
+    }
+
+    .editButton {
+        padding: 5px 8px;
+        font-size: 14px;
+        margin-top: 10px;
+        align-self: flex-end;
+
+    }
+
+    .description {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .perfIndTableWrapper {
+        flex-direction: column;
+    }
+
+    .heartSection {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .img {
+        height: auto;
+
+    }
+
+    .rating {
+        font-size: 28px;
+    }
+
+    .tableSection {
+        width: 100%;
+
+    }
+
+    .scorecardLabelInline {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .scoreLabelMain {
+        margin-bottom: 10px;
+
+    }
+
+    .sizeIndicator {
+        margin: 15px 0;
+    }
+
+    .heading {
+        font-size: 13px;
+    }
+
+    .description1 {
+        font-size: 11px;
+    }
+
+    .gradientOverTable {
+        padding: 15px 0;
+    }
+
+    .yellowBtn {
+        font-size: 13px;
+        padding: 8px 16px;
+        height: auto;
+
+    }
+}
